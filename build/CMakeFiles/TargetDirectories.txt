@@ -1,3 +1,10 @@
 /home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/cpp_backend.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/graphics_window.dir
 /home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/edit_cache.dir
 /home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/rebuild_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/CMakeFiles/edit_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/CMakeFiles/rebuild_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/CMakeFiles/edit_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/CMakeFiles/rebuild_cache.dir

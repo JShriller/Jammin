@@ -1,5 +1,71 @@
 # ninja log v7
-1	5036	1791659696993536829	CMakeFiles/cpp_backend.dir/bridge.cpp.o	babdf0f9a7691904
-0	231	1791659772955895235	build.ninja	a4753828892bdbf0
-0	231	1791659772954773462	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake	a4753828892bdbf0
+1	4728	1791662533572305723	CMakeFiles/cpp_backend.dir/bridge.cpp.o	babdf0f9a7691904
+0	231	1791662626571473468	build.ninja	a4753828892bdbf0
+0	231	1791662626566553151	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake	a4753828892bdbf0
 4	155	1791659735884657427	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
+6	15	1791662626638858793	_deps/glfw-build/src/viewporter-client-protocol-code.h	b73d73c9ad73bfb8
+6	15	1791662626638858793	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/viewporter-client-protocol-code.h	b73d73c9ad73bfb8
+7	15	1791662626638858793	_deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol.h	53e5d5ee29c49521
+7	15	1791662626638858793	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol.h	53e5d5ee29c49521
+5	16	1791662626640825018	_deps/glfw-build/src/viewporter-client-protocol.h	994529a979c3877e
+5	16	1791662626640825018	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/viewporter-client-protocol.h	994529a979c3877e
+6	21	1791662626640825018	_deps/glfw-build/src/xdg-shell-client-protocol.h	50614def07acde21
+6	21	1791662626640825018	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-shell-client-protocol.h	50614def07acde21
+6	22	1791662626645553362	_deps/glfw-build/src/xdg-shell-client-protocol-code.h	9ad0f8a90f4973b5
+6	22	1791662626645553362	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-shell-client-protocol-code.h	9ad0f8a90f4973b5
+7	22	1791662626642553354	_deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol-code.h	ccef5e22131cbe18
+7	22	1791662626642553354	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol-code.h	ccef5e22131cbe18
+8	25	1791662626645553362	_deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol-code.h	5db3d325c894897c
+8	25	1791662626645553362	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol-code.h	5db3d325c894897c
+7	25	1791662626648553370	_deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol.h	a2cc9e43ac113064
+7	25	1791662626648553370	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol.h	a2cc9e43ac113064
+15	25	1791662626646956395	_deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol.h	745f0d6e13845f67
+15	25	1791662626646956395	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol.h	745f0d6e13845f67
+15	29	1791662626647980770	_deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol-code.h	c5701fb9126038e6
+15	29	1791662626647980770	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol-code.h	c5701fb9126038e6
+5	29	1791662626653293023	_deps/glfw-build/src/wayland-client-protocol-code.h	f24d7d2736f47b55
+5	29	1791662626653293023	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/wayland-client-protocol-code.h	f24d7d2736f47b55
+16	29	1791662626652273735	_deps/glfw-build/src/fractional-scale-v1-client-protocol.h	f52ad4926819cde1
+16	29	1791662626652273735	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/fractional-scale-v1-client-protocol.h	f52ad4926819cde1
+22	29	1791662626653958610	_deps/glfw-build/src/xdg-activation-v1-client-protocol.h	1a70ce0944b9adb7
+22	29	1791662626653958610	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-activation-v1-client-protocol.h	1a70ce0944b9adb7
+4	29	1791662626653836805	_deps/glfw-build/src/wayland-client-protocol.h	2b949e45a367a1f
+4	29	1791662626653836805	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/wayland-client-protocol.h	2b949e45a367a1f
+21	31	1791662626655553389	_deps/glfw-build/src/fractional-scale-v1-client-protocol-code.h	a256aa2d5eec5e2b
+21	31	1791662626655553389	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/fractional-scale-v1-client-protocol-code.h	a256aa2d5eec5e2b
+22	32	1791662626656553391	_deps/glfw-build/src/xdg-activation-v1-client-protocol-code.h	5cffd7877ee8d6b4
+22	32	1791662626656553391	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-activation-v1-client-protocol-code.h	5cffd7877ee8d6b4
+25	33	1791662626657553394	_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol-code.h	156aa9344585b8d2
+25	33	1791662626657553394	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol-code.h	156aa9344585b8d2
+25	34	1791662626659079159	_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol.h	65ae0c76c11a7469
+25	34	1791662626659079159	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol.h	65ae0c76c11a7469
+25	218	1791662626651189111	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
+41	318	1791662626666661541	_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o	ee17c5860680aaa
+38	320	1791662626662553407	_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o	9167477444825d06
+38	330	1791662626663589722	_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o	a1620ca8ff36f1a8
+34	361	1791662626659079159	_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.o	e3f3b071d612dabd
+34	362	1791662626659741993	_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o	14574c8f6ace8d65
+41	368	1791662626665965091	_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o	e31ddfd5a8c3594f
+38	396	1791662626664080538	_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o	d82a095e252b6a90
+35	429	1791662626660378884	_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o	46c1c3b9f6f3ee3a
+330	474	1791662626955988932	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.o	c22626977e4ccdbf
+34	527	1791662626660029982	_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o	ee6e6429e9b1c3d3
+218	549	1791662626843707623	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.o	5b0827b0d8284919
+368	587	1791662626994112289	_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o	8005feaa972602b0
+361	622	1791662626987038547	_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_module.c.o	ce200c4a03932097
+362	638	1791662626988094574	_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_time.c.o	eed1c99d5c3d619a
+319	655	1791662626943554158	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.o	e6064847dcdd20f6
+527	701	1791662627155554724	_deps/glfw-build/src/CMakeFiles/glfw.dir/xkb_unicode.c.o	50c1f7a829b09e4c
+320	714	1791662626944554161	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.o	1410f2aa2459e277
+429	747	1791662627053554452	_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_monitor.c.o	16111b53ab87a410
+396	783	1791662627020554364	_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_init.c.o	c232b731a7e9de05
+549	852	1791662627174554775	_deps/glfw-build/src/CMakeFiles/glfw.dir/glx_context.c.o	f6842d18d1386034
+622	899	1791662627246588952	_deps/glfw-build/src/CMakeFiles/glfw.dir/wl_monitor.c.o	9a3c145337aa1397
+701	902	1791662627325555179	_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_poll.c.o	212718203ca7047c
+655	967	1791662627279555056	_deps/glfw-build/src/CMakeFiles/glfw.dir/linux_joystick.c.o	e3b860f70e940cd7
+475	1015	1791662627099554575	_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_window.c.o	391501cad9dce602
+587	1015	1791662627211554874	_deps/glfw-build/src/CMakeFiles/glfw.dir/wl_init.c.o	a0d422b8bfba5fe5
+638	1222	1791662627262555010	_deps/glfw-build/src/CMakeFiles/glfw.dir/wl_window.c.o	a5dc0bca6a16ecbd
+715	1259	1791662627339555216	CMakeFiles/graphics_window.dir/main.cpp.o	3e77a0c5a9f6759a
+1222	1260	1791662627846556571	_deps/glfw-build/src/libglfw3.a	3e0142d2e068c2e8
+1260	1361	1791662627884556672	graphics_window	c72a70f102dbd1df
