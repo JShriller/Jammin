@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/jshriller/Documents/Repos/My repos/3D_calculator/build",
+  "command": "/usr/bin/g++ -Dcpp_backend_EXPORTS -isystem /usr/include/python3.13 -isystem /var/data/python/lib/python3.13/site-packages/pybind11/include -g -std=gnu++17 -fPIC -fvisibility=hidden -o CMakeFiles/cpp_backend.dir/bridge.cpp.o -c \"/home/jshriller/Documents/Repos/My repos/3D_calculator/bridge.cpp\"",
+  "file": "/home/jshriller/Documents/Repos/My repos/3D_calculator/bridge.cpp",
+  "output": "/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/cpp_backend.dir/bridge.cpp.o"
+}
+]

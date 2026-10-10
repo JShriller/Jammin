@@ -1,0 +1,5 @@
+# ninja log v7
+1	5036	1791659696993536829	CMakeFiles/cpp_backend.dir/bridge.cpp.o	babdf0f9a7691904
+0	231	1791659772955895235	build.ninja	a4753828892bdbf0
+0	231	1791659772954773462	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake	a4753828892bdbf0
+4	155	1791659735884657427	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
