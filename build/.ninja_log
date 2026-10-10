@@ -1,8 +1,8 @@
 # ninja log v7
 1	4728	1791662533572305723	CMakeFiles/cpp_backend.dir/bridge.cpp.o	babdf0f9a7691904
-0	231	1791662626571473468	build.ninja	a4753828892bdbf0
-0	231	1791662626566553151	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake	a4753828892bdbf0
-4	155	1791659735884657427	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
+0	231	1791662778893501911	build.ninja	a4753828892bdbf0
+0	231	1791662778888962546	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake	a4753828892bdbf0
+25	218	1791662626651189111	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
 6	15	1791662626638858793	_deps/glfw-build/src/viewporter-client-protocol-code.h	b73d73c9ad73bfb8
 6	15	1791662626638858793	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/viewporter-client-protocol-code.h	b73d73c9ad73bfb8
 7	15	1791662626638858793	_deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol.h	53e5d5ee29c49521
@@ -39,7 +39,6 @@
 25	33	1791662626657553394	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol-code.h	156aa9344585b8d2
 25	34	1791662626659079159	_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol.h	65ae0c76c11a7469
 25	34	1791662626659079159	/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol.h	65ae0c76c11a7469
-25	218	1791662626651189111	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
 41	318	1791662626666661541	_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o	ee17c5860680aaa
 38	320	1791662626662553407	_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o	9167477444825d06
 38	330	1791662626663589722	_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o	a1620ca8ff36f1a8
