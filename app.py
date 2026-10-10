@@ -1,76 +1,70 @@
 import sys
-import os
-from sympy import symbols, lambdify, sympify 
-
-
-# Directing python to locate to the C++ library module inside the build folder
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'build')))
-try: 
-    import cpp_backend
-except ImportError as e:
-    print("Error: Could not find 'cpp_backend.so'. Make user to hit 'Build' (F7) in VScode")
-    print(e)
-    sys.exit(1)
-    
+import socket
+import numpy as np
+from sympy import symbols, lambdify, sympify
 from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton, QLabel
 
 class GrapherUI(QWidget):
-    # pulled over constructor from parent class and called a function to initalize the UI
     def __init__(self):
         super().__init__()
         self.init_ui()
-    # Creating the ui elements and features with funcitons 
+
     def init_ui(self):
-        self.setWindowTitle("3D Graphing Calculator")
-        self.setGeometry(100, 100, 450, 150)
-        
-        # Variables store layout strucuters
-    
+        self.setWindowTitle("Desmos 3D Controller Panel")
+        self.setGeometry(100, 100, 450, 120)
         main_layout = QVBoxLayout()
         input_layout = QHBoxLayout()
-    
-        # UI Contorl elements 
+
         self.label = QLabel("z =")
-        self.equation_input = QLineEdit("sin(x) * cos(y)") # Default sample string
-        self.plot_button = QPushButton("Calculate Mesh")
-        
-        # Binds the button to the mathematical evalutaion logic 
+        self.equation_input = QLineEdit("sin(x) * cos(y)")
+        self.plot_button = QPushButton("Update 3D Viewport")
+
         self.plot_button.clicked.connect(self.process_algebraic_mesh)
-        
-        # Assembles the layout architecture
+
         input_layout.addWidget(self.label)
         input_layout.addWidget(self.equation_input)
         main_layout.addLayout(input_layout)
         main_layout.addWidget(self.plot_button)
-        
         self.setLayout(main_layout)
-    
-    # This function takes the algebraic equations and passes them to my C++ module
+
     def process_algebraic_mesh(self):
         user_string = self.equation_input.text()
-        print(f"\n[Python UI] Processing expression string: '{user_string}'")
-        
         try:
-            # Safely tokenize and parse the text via SymPy functions and class methods
+            # 1. Parse algebra via SymPy
             x_sym, y_sym = symbols('x y')
             parsed_expr = sympify(user_string)
+            math_func = lambdify((x_sym, y_sym), parsed_expr, 'numpy')
+
+            # 2. Build 2D Mesh Evaluation Matrix Grid
+            resolution = 50
+            x_vals = np.linspace(-5, 5, resolution)
+            y_vals = np.linspace(-5, 5, resolution)
             
-            # convert the SymPy expression into an ultra-fast compiled math function target
-            math_func = lambdify((x_sym, y_sym), parsed_expr, 'math')
+            # Serialize mathematical coordinate structures cleanly
+            data_payload = []
+            for i in range(resolution):
+                for j in range(resolution):
+                    x = float(x_vals[i])
+                    y = float(y_vals[j])
+                    try:
+                        z = float(math_func(x, y))
+                    except:
+                        z = 0.0 # Gracefully drop undefined infinity bounds
+                    data_payload.append(f"{x},{y},{z}")
             
-            print("[Python UI] Code successfully parsed. Passing grid computation to next phase...")
-            
-            # The custom C++ module logic is called using the pybind11 library 
-            # There is also a resultion parameter for how dense the 3D grid layout can be
-            resolution = 50 
-            cpp_calculated_points = cpp_backend.generate_surface_mesh(resolution)
-            
-            print(f"[C++ Core] Success! Returned {len(cpp_calculated_points)} coordinate back to Python smoothly")
-            print(f"Sample 3D Point Coordinates: {cpp_calculated_points[0]}")
-            
+            # Form single clean string packet stream
+            packet_string = ";".join(data_payload) + ";"
+
+            # 3. Network Stream Transmission: Push raw bytes to the C++ server loop
+            client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client_socket.connect(("127.0.0.1", 12345))
+            client_socket.sendall(packet_string.encode('utf-8'))
+            client_socket.close()
+            print(f"🚀 [Python UI] Dispatched updated points to C++ for: z = {user_string}")
+
         except Exception as error:
-            print(f"Algebraic parsing error occurred: {error}")
-            
+            print(f"❌ Syntax/Parsing Error: {error}")
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     ui = GrapherUI()

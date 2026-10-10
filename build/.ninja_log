@@ -68,3 +68,11 @@
 715	1259	1791662627339555216	CMakeFiles/graphics_window.dir/main.cpp.o	3e77a0c5a9f6759a
 1222	1260	1791662627846556571	_deps/glfw-build/src/libglfw3.a	3e0142d2e068c2e8
 1260	1361	1791662627884556672	graphics_window	c72a70f102dbd1df
+4	420	1791666581286632414	CMakeFiles/graphics_window.dir/main.cpp.o	3e77a0c5a9f6759a
+420	493	1791666581701635428	graphics_window	c72a70f102dbd1df
+4	3169	1791666581285468106	CMakeFiles/cpp_backend.dir/bridge.cpp.o	babdf0f9a7691904
+3169	3243	1791666584450487884	cpp_backend.cpython-313-x86_64-linux-gnu.so	f2df7284cca5ed0e
+3	474	1791666973050089317	CMakeFiles/graphics_window.dir/main.cpp.o	3e77a0c5a9f6759a
+474	536	1791666973521301032	graphics_window	c72a70f102dbd1df
+4	486	1791667402287699290	CMakeFiles/graphics_window.dir/main.cpp.o	3e77a0c5a9f6759a
+495	565	1791667402778699592	graphics_window	c72a70f102dbd1df
