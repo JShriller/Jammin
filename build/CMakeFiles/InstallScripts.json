@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/jshriller/Documents/Repos/My repos/3D_calculator/build/cmake_install.cmake",
-		"/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/cmake_install.cmake",
-		"/home/jshriller/Documents/Repos/My repos/3D_calculator/build/_deps/glfw-build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
