@@ -1,0 +1,5 @@
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/Graphing_Calculator.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/edit_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/rebuild_cache.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/Graphing_Calculator_autogen_timestamp_deps.dir
+/home/jshriller/Documents/Repos/My repos/3D_calculator/build/CMakeFiles/Graphing_Calculator_autogen.dir
