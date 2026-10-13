@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QPainter>
 #include <QPaintEvent>
+#include <QPainterPath>
 
 // My Widget class 
 class MyWidget : public QWidget {

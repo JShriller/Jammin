@@ -382,6 +382,7 @@
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/QPaintEvent
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter
+ mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h
@@ -399,6 +400,7 @@
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h
+ mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h
