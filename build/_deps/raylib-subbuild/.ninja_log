@@ -1,0 +1,21 @@
+# ninja log v5
+1	27	1792019846113932177	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	79ea0065729d75b5
+1	27	1792019846113932177	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	79ea0065729d75b5
+0	20581	1792095164672785466	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	724703f0b50bd7e8
+0	20581	1792095164672785466	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	724703f0b50bd7e8
+20581	21061	0	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	14b65a708063a4f8
+20581	21061	0	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	14b65a708063a4f8
+21061	21070	1792095165161782443	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	a40ed7cb42ea17ba
+21061	21070	1792095165161782443	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	a40ed7cb42ea17ba
+21070	21080	1792095165171782381	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	6f95159c27c7c13
+21070	21080	1792095165171782381	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	6f95159c27c7c13
+21080	21089	1792095165180782326	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	88815f7ccb77ba15
+21080	21089	1792095165180782326	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	88815f7ccb77ba15
+21089	21101	1792095165192782251	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	59a91e1f5f85d07f
+21089	21101	1792095165192782251	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	59a91e1f5f85d07f
+21101	21114	1792095165205782171	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	ceeb063e3444a87f
+21101	21114	1792095165205782171	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	ceeb063e3444a87f
+21114	21130	1792095165221782073	CMakeFiles/raylib-populate-complete	e394284f54b9e806
+21114	21130	1792095165221782073	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	e394284f54b9e806
+21114	21130	1792095165221782073	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	e394284f54b9e806
+21114	21130	1792095165221782073	/home/jshriller/Documents/Repos/My repos/Jammin/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	e394284f54b9e806
